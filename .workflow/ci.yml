@@ -28,7 +28,8 @@ jobs:
 
       - name: Run MLflow Project Re-training
         run: |
-          mlflow run MLProject --env-manager local --parameters n_estimators=100 --parameters max_depth=10
+          mlflow run MLProject --env-manager local -P n_estimators=100 -P max_depth=10
+
 
       - name: Commit and push model artifacts
         run: |
