@@ -1,0 +1,14 @@
+name: student_placement_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - mlflow==3.12.0
+      - scikit-learn==1.7.1
+      - pandas==2.2.3
+      - numpy==2.0.2
+      - matplotlib
+      - seaborn

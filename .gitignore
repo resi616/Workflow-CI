@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# MLflow local tracking files
+mlruns/
+mlflow.db
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
